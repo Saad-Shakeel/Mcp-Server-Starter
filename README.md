@@ -1,6 +1,6 @@
 # MCP Server Starter
 
-A comprehensive guide and examples for creating and using Model Context Protocol (MCP) servers with LangChain. This repository demonstrates how to build custom MCP servers and integrate them with LangChain agents for enhanced AI capabilities.
+Simple examples of Model Context Protocol (MCP) servers built with LangChain. This repository demonstrates how to create basic MCP servers and integrate them with LangChain agents for enhanced AI functionality.
 
 ## What is MCP?
 
@@ -55,9 +55,6 @@ The `ArXiv Mcp/` directory contains a complete example of an MCP server that ret
 ```bash
 uv run ArXiv Mcp\arxiv_client.py
 ```
-```bash
-uv run Multi Mcp\client.py
-```
 
 ### Multi-Server Client
 
@@ -70,6 +67,10 @@ The `Multi Mcp/` directory shows how to connect to multiple MCP servers simultan
 - Connect to multiple MCP servers
 - Use tools from all connected servers
 - Configurable server management
+
+```bash
+uv run Multi Mcp\client.py
+```
 
 ## Creating Your Own MCP Server
 
